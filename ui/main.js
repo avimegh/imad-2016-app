@@ -1,4 +1,7 @@
 console.log('Loaded!');
+if (typeof element !== 'undefined') {
+  // Now we know that element is defined, we are good to go.
+}
 console.log('avi');
 var element=document.getElementById('main-text');  
 
